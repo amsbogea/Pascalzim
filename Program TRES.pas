@@ -1,0 +1,21 @@
+// LEIA VARIAS NOTAS ATE QUE SEJA INFORMADA UMA NOTA <0 OU >10.
+//IMPRIMA A MEDIA DESSAS NOTAS LIDAS.
+Program TRES ;
+ VAR NOTA, MEDIA, SOMA: REAL;
+     CONT: INTEGER;
+                
+ Begin
+    SOMA:=0;
+    CONT:=0;
+    READLN (NOTA);    
+    WHILE((NOTA>=0) AND (NOTA<=10)) DO
+       BEGIN
+         SOMA:=SOMA+NOTA;
+         CONT:=CONT+1;
+         READLN (NOTA);
+       END;
+	   IF (CONT=0) THEN
+	     WRITE ('NENHUMA NOTA INFORMADA')
+	   ELSE
+	     WRITE ('MEDIA=', SOMA/CONT);	  
+ End.

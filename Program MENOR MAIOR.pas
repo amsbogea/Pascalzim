@@ -1,0 +1,5 @@
+Program Pzim ;
+ //LEIA 3 NUMEROS INTEIROS E IMPRIMA NA TELA O MAIOR E O MENOR
+ Begin
+  
+ End.
